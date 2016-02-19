@@ -1,6 +1,6 @@
-==========================================
-dxfile: Data Exchange for X-ray Tomography
-==========================================
+=====================================
+dxfile: The Data Exchange file format
+=====================================
 dxfile subclasses the h5py module for interacting with Data Exchange files.
 
 =================
