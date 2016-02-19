@@ -7,7 +7,7 @@ dxfile subclasses the h5py module for interacting with Data Exchange files.
 Installing dxfile
 =================
 
-To install xtomo you must have `Conda <http://continuum.io/downloads>`_ 
+To install dxfile you must have `Conda <http://continuum.io/downloads>`_ 
 installed first then open a terminal or a command prompt window and run::
 
 conda install -c https://conda.binstar.org/decarlof dxfile
