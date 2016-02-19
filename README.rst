@@ -1,27 +1,41 @@
-=========================================
-xtomo: Data Exchange for X-ray Tomography
-=========================================
-xtomo is a Python toolbox for reading tomographic raw datasets collected at different synchrotron facilities and writing them as Data Exchange files (http://www.aps.anl.gov/DataExchange/). 
+==========================================
+dxfile: Data Exchange for X-ray Tomography
+==========================================
+dxfile subclasses the h5py module for interacting with Data Exchange files.
 
-xtomo also provides an interface between tomographic raw datasets and tomoPy (https://github.com/tomopy/), a Python toolbox to perform tomographic data processing and image reconstruction tasks developed at the Advanced Photon Source (http://www.aps.anl.gov/).
-
-:home: http://www.aps.anl.gov/DataExchange
-:git:  https://github.com/data-exchange/data-exchange
-
-================
-Installing xtomo
-================
+=================
+Installing dxfile
+=================
 
 To install xtomo you must have `Conda <http://continuum.io/downloads>`_ 
 installed first then open a terminal or a command prompt window and run::
 
-conda install -c decarlof xtomo
+conda install -c https://conda.binstar.org/decarlof dxfile
 
-===========
-Using xtomo
-===========
+==========================================
+dxtomo: Data Exchange for X-ray Tomography
+==========================================
+dxtomo is a Python toolbox for reading tomographic raw datasets collected at different synchrotron facilities and writing them as Data Exchange files (http://www.aps.anl.gov/DataExchange/). 
 
-Look at the xtomo/Example directory
+dxtomo also provides an interface between tomographic raw datasets and tomoPy (https://github.com/tomopy/), a Python toolbox to perform tomographic data processing and image reconstruction tasks developed at the Advanced Photon Source (http://www.aps.anl.gov/).
+
+:home: http://www.aps.anl.gov/DataExchange
+:git:  https://github.com/data-exchange/data-exchange
+
+=================
+Installing dxtomo
+=================
+
+To install xtomo you must have `Conda <http://continuum.io/downloads>`_ 
+installed first then open a terminal or a command prompt window and run::
+
+conda install -c decarlof dxtomo
+
+============
+Using dxtomo
+============
+
+Look at the dxtomo/Example directory
 
 ====================
 Citing Data Exchange
